@@ -6,6 +6,7 @@ read confirmation
 if ["$confirmation" = "y"]
 then
 	echo "Just sit back and relax while your system configurations are being set up..."
+	cd ~/TLLdotfiles
 	rsync -v --exclude "README.md" --exclude "notSynced/" --exclude ".git/" . ~
 else
 	echo "Aborting. Never mind!"
