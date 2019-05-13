@@ -1,3 +1,4 @@
+set number
 call plug#begin('~/.vim/plugged')
 " Install ansible plugin 
 Plug 'pearofducks/ansible-vim'
