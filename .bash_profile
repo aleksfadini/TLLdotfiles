@@ -8,7 +8,7 @@ alias connectApps='sh ~/Desktop/connectToApps.command'
 alias dfScripts='cd ~/TLLdotfiles/notSynced/scripts && ls -Gla'
 alias temp='cd ~/temp && ls -Gla'
 # SSH
-alias connectJT='ssh -p 100 -t aleks@jazzthang.synology.me "bash;'
+alias connectJT='ssh -p 100 -t aleks@jazzthang.synology.me "bash;"'
 # Scripts
 #alias syncDotFiles='sh ~/TLLdotfiles/notSynced/scripts/syncDotfiles.sh'
 alias gitDotFiles='sh ~/TLLdotfiles/notSynced/scripts/gitScript.sh'
