@@ -10,6 +10,7 @@ alias temp='cd ~/temp && ls -Gla'
 # SSH
 alias connectJT='ssh -p 100 -t aleks@jazzthang.synology.me "bash;"'
 # Scripts
+# another alias
 #alias syncDotFiles='sh ~/TLLdotfiles/notSynced/scripts/syncDotfiles.sh'
 alias gitDotFiles='sh ~/TLLdotfiles/notSynced/scripts/gitScript.sh'
 alias gitBF='sh ~/TLLdotfiles/notSynced/scripts/gitBF.sh'
