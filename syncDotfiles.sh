@@ -9,7 +9,7 @@ then
 	echo "Just sit back and relax while your system configurations are being set up..."
 	echo # skip a line
 	cd ~/TLLdotfiles
-	rsync -v --exclude "syncDotfiles.sh" --exclude "README.md" --exclude "notSynced/" --exclude ".git/" . ~
+	rsync -hrv --exclude "syncDotfiles.sh" --exclude "README.md" --exclude "notSynced/" --exclude ".git/" . ~
 else
 	echo "Aborting. Never mind!"
 fi
